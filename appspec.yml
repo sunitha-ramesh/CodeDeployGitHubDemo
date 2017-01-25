@@ -4,7 +4,7 @@ files:
   - source: /index.html
     destination: /var/www/html/	
   - source: /webpages
-    destination: /var/www/html/webpages/
+    destination: /webpages/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
