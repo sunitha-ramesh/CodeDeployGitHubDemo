@@ -22,7 +22,7 @@
 <script src="scripts/toastr.min.js"></script>
 
 </head>
-<body style="background-color: #D8D8D8;">
+<body style="background-color: Yellow;">
 
 	<form name="manualMCSForm" id="manualMCSForm"
 		enctype="multipart/form-data">

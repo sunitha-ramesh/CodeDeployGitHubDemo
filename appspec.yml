@@ -5,8 +5,10 @@ files:
     destination: /var/www/html/	
   - source: /webpages/
     destination: /var/www/html/	
-  - source: /codedeploydemopro
-    destination: /opt/apache-tomcat-8.0.41/webapps/codedeploydemopro
+  - source: /codedeploydemopro/WEB-INF/classes/
+    destination: /opt/apache-tomcat-8.0.41/webapps/codedeploydemopro/WEB-INF/classes/
+  - source: /codedeploydemopro/index.jsp
+    destination: /opt/apache-tomcat-8.0.41/webapps/codedeploydemopro/index.jsp
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
