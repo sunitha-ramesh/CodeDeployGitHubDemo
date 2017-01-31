@@ -33,17 +33,17 @@
 }
 </style>
 </head>
-<body style="background-color: #D8D8D8;">
+<body style="background-color: violet;">
 	<form name="manualMCSForm" id="manualMCSForm"
 		enctype="multipart/form-data">
 		<table style="width: auto; height: auto" align="center">
 			<tr>
-				<th colspan="2" align="center">AWS SAMPLE APP</th>
+				<th colspan="2" align="center">AWS SAMPLE APPLICATION</th>
 			</tr>
 			<tr>
 			<td><s:textfield id="recordCnt" name="recordCnt" label="No. of Records"
 						style="width:200px"></s:textfield> </td>
-				<td><s:textfield id="name" name="name" label="Name"
+				<td><s:textfield id="name" name="name" label="Student Name"
 						style="width:200px"></s:textfield> </td>
 				<td><s:textfield id="address" name="address" label="Address"
 						style="width:200px"></s:textfield> </td>
