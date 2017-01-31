@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/	
-  - source: /webpages/page2.html
+  - source: /webpages/
     destination: /var/www/html/	
   - source: /codedeploydemopro
     destination: /opt/apache-tomcat-8.0.41/webapps/codedeploydemopro
