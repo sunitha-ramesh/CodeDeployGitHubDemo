@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo unzip -qq aws_sample_war.war -d /opt/apache-tomcat-8.0.41/webapps/
+
