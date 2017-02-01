@@ -5,8 +5,8 @@ files:
     destination: /var/www/html/	
   - source: /webpages/
     destination: /var/www/html/	
-  - source: /aws_sample_war
-    destination: /opt/apache-tomcat-8.0.41/webapps/aws_sample_war
+  - source: /aws_sample_war.war
+    destination: /opt/apache-tomcat-8.0.41/webapps/aws_sample_war.war
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
