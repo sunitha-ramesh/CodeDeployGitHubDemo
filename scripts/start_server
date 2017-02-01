@@ -1,3 +1,4 @@
 #!/bin/bash
 service httpd start
+sudo /opt/apache-tomcat-8.0.41/bin/startup.sh
 

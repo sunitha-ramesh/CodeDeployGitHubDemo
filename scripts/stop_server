@@ -3,4 +3,7 @@ isExistApp = `pgrep httpd`
 if [[ -n  $isExistApp ]]; then
     service httpd stop        
 fi
-
+isExistApp = `pgrep tomcat`
+if [[ -n  $isExistApp ]]; then
+    sudo /opt/apache-tomcat-8.0.41/bin/shutdown.sh      
+fi
