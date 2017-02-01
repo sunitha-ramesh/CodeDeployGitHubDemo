@@ -5,13 +5,14 @@ files:
     destination: /var/www/html/	
   - source: /webpages/
     destination: /var/www/html/	
-  - source: /aws_sample/
-    destination: /opt/apache-tomcat-8.0.41/webapps/aws_sample/
+  - source: /aws_sample_war
+    destination: /opt/apache-tomcat-8.0.41/webapps/aws_sample_war
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
+  ApplicationStart:
     - location: scripts/start_server
       timeout: 300
       runas: root
