@@ -33,7 +33,7 @@
 }
 </style>
 </head>
-<body style="background-color: violet;">
+<body style="background-color: yellow;">
 	<form name="manualMCSForm" id="manualMCSForm"
 		enctype="multipart/form-data">
 		<table style="width: auto; height: auto" align="center">
